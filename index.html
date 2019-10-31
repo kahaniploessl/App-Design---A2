@@ -44,9 +44,9 @@
               <br>
               <br>
               <b-table striped hover :items="income" :fields="field1">
-                <template v-slot:cell(actions)="row">
-                  <!--b-button @click="addFunction(row.index)" variant="danger">Remove</b-button-->
-                </template>
+                <!--template v-slot:cell(actions)="row">
+                  <b-button @click="addFunction(row.index)" variant="danger">Remove</b-button>
+                </template-->
               </b-table>
             </b-card-text>
           </b-tab>
@@ -68,9 +68,9 @@
               <br>
               <br>
               <b-table striped hover :items="inventory" :fields="field2">
-                <template v-slot:cell(actions)="row">
-                  <!--b-button @click="addFunction(row.index)" variant="success2">Add</b-button-->
-                </template>
+                <!--template v-slot:cell(actions)="row">
+                  <b-button @click="addFunction(row.index)" variant="success2">Add</b-button>
+                </template-->
               </b-table>
             </b-card-text>
           </b-tab>
